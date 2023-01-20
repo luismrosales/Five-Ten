@@ -51,7 +51,7 @@ main {
   display: flex;
   align-items: center;
 }
-p {
+main p {
   margin: 2rem 0;
   font-weight: lighter;
 }
@@ -98,7 +98,7 @@ section {
 
 /* mobil view */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1075px) {
   /* nav section */
   nav {
     background-color: black;
@@ -156,9 +156,20 @@ section {
   }
   /* card display section */
   .card-display {
-    min-height: 100vh;
-    background-color: black;
-    margin: 0 5%;
+    text-align: center;
+  }
+  .card-display p {
+    font-weight: lighter;
+    margin: 0.5rem 0 1rem 0;
+  }
+  .cards {
+    flex-wrap: wrap;
+  }
+  .card {
+    margin: 1rem 0;
+  }
+  .card p {
+    margin: 0.5rem 0;
   }
   br {
     display: none;
